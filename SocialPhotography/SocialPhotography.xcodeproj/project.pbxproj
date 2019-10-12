@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C13A9A12351512C00734D4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C13A9A02351512C00734D4C /* AppDelegate.swift */; };
+		1C13A9A32351512C00734D4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C13A9A22351512C00734D4C /* ViewController.swift */; };
+		1C13A9A62351512C00734D4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C13A9A42351512C00734D4C /* Main.storyboard */; };
+		1C13A9A82351512F00734D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C13A9A72351512F00734D4C /* Assets.xcassets */; };
+		1C13A9AB2351512F00734D4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C13A9A92351512F00734D4C /* LaunchScreen.storyboard */; };
+		1C13A9B62351513000734D4C /* SocialPhotographyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C13A9B52351513000734D4C /* SocialPhotographyTests.swift */; };
+		547419E4CC04B17DC955EB42 /* Pods_SocialPhotography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 487CF0AE7560585F9EEA25C7 /* Pods_SocialPhotography.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C13A9B22351512F00734D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C13A9952351512C00734D4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C13A99C2351512C00734D4C;
+			remoteInfo = SocialPhotography;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C13A99D2351512C00734D4C /* SocialPhotography.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialPhotography.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C13A9A02351512C00734D4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C13A9A22351512C00734D4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C13A9A52351512C00734D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C13A9A72351512F00734D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C13A9AA2351512F00734D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C13A9AC2351512F00734D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C13A9B12351512F00734D4C /* SocialPhotographyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialPhotographyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C13A9B52351513000734D4C /* SocialPhotographyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialPhotographyTests.swift; sourceTree = "<group>"; };
+		1C13A9B72351513000734D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		287E239CCBF0B766F109E82E /* Pods-SocialPhotography.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialPhotography.release.xcconfig"; path = "Target Support Files/Pods-SocialPhotography/Pods-SocialPhotography.release.xcconfig"; sourceTree = "<group>"; };
+		487CF0AE7560585F9EEA25C7 /* Pods_SocialPhotography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialPhotography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FDA13671C1169C69095B03 /* Pods-SocialPhotography.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialPhotography.debug.xcconfig"; path = "Target Support Files/Pods-SocialPhotography/Pods-SocialPhotography.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C13A99A2351512C00734D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547419E4CC04B17DC955EB42 /* Pods_SocialPhotography.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C13A9AE2351512F00734D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C13A9942351512C00734D4C = {
+			isa = PBXGroup;
+			children = (
+				1C13A99F2351512C00734D4C /* SocialPhotography */,
+				1C13A9B42351513000734D4C /* SocialPhotographyTests */,
+				1C13A99E2351512C00734D4C /* Products */,
+				D98E4E59179E2A25E445E707 /* Pods */,
+				A3FF9DD566E10D5AAC7E586E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1C13A99E2351512C00734D4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C13A99D2351512C00734D4C /* SocialPhotography.app */,
+				1C13A9B12351512F00734D4C /* SocialPhotographyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C13A99F2351512C00734D4C /* SocialPhotography */ = {
+			isa = PBXGroup;
+			children = (
+				1C13A9A02351512C00734D4C /* AppDelegate.swift */,
+				1C13A9A22351512C00734D4C /* ViewController.swift */,
+				1C13A9A42351512C00734D4C /* Main.storyboard */,
+				1C13A9A72351512F00734D4C /* Assets.xcassets */,
+				1C13A9A92351512F00734D4C /* LaunchScreen.storyboard */,
+				1C13A9AC2351512F00734D4C /* Info.plist */,
+			);
+			path = SocialPhotography;
+			sourceTree = "<group>";
+		};
+		1C13A9B42351513000734D4C /* SocialPhotographyTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C13A9B52351513000734D4C /* SocialPhotographyTests.swift */,
+				1C13A9B72351513000734D4C /* Info.plist */,
+			);
+			path = SocialPhotographyTests;
+			sourceTree = "<group>";
+		};
+		A3FF9DD566E10D5AAC7E586E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				487CF0AE7560585F9EEA25C7 /* Pods_SocialPhotography.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D98E4E59179E2A25E445E707 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54FDA13671C1169C69095B03 /* Pods-SocialPhotography.debug.xcconfig */,
+				287E239CCBF0B766F109E82E /* Pods-SocialPhotography.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C13A99C2351512C00734D4C /* SocialPhotography */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C13A9BA2351513000734D4C /* Build configuration list for PBXNativeTarget "SocialPhotography" */;
+			buildPhases = (
+				60F67E8C9E3AD048707C7312 /* [CP] Check Pods Manifest.lock */,
+				1C13A9992351512C00734D4C /* Sources */,
+				1C13A99A2351512C00734D4C /* Frameworks */,
+				1C13A99B2351512C00734D4C /* Resources */,
+				DF10C59F2E1763FBD1F781ED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialPhotography;
+			productName = SocialPhotography;
+			productReference = 1C13A99D2351512C00734D4C /* SocialPhotography.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C13A9B02351512F00734D4C /* SocialPhotographyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C13A9BD2351513000734D4C /* Build configuration list for PBXNativeTarget "SocialPhotographyTests" */;
+			buildPhases = (
+				1C13A9AD2351512F00734D4C /* Sources */,
+				1C13A9AE2351512F00734D4C /* Frameworks */,
+				1C13A9AF2351512F00734D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C13A9B32351512F00734D4C /* PBXTargetDependency */,
+			);
+			name = SocialPhotographyTests;
+			productName = SocialPhotographyTests;
+			productReference = 1C13A9B12351512F00734D4C /* SocialPhotographyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C13A9952351512C00734D4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Danish Aziz";
+				TargetAttributes = {
+					1C13A99C2351512C00734D4C = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					1C13A9B02351512F00734D4C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 1C13A99C2351512C00734D4C;
+					};
+				};
+			};
+			buildConfigurationList = 1C13A9982351512C00734D4C /* Build configuration list for PBXProject "SocialPhotography" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C13A9942351512C00734D4C;
+			productRefGroup = 1C13A99E2351512C00734D4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C13A99C2351512C00734D4C /* SocialPhotography */,
+				1C13A9B02351512F00734D4C /* SocialPhotographyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C13A99B2351512C00734D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C13A9AB2351512F00734D4C /* LaunchScreen.storyboard in Resources */,
+				1C13A9A82351512F00734D4C /* Assets.xcassets in Resources */,
+				1C13A9A62351512C00734D4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C13A9AF2351512F00734D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60F67E8C9E3AD048707C7312 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocialPhotography-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF10C59F2E1763FBD1F781ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocialPhotography/Pods-SocialPhotography-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocialPhotography/Pods-SocialPhotography-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SocialPhotography/Pods-SocialPhotography-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C13A9992351512C00734D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C13A9A32351512C00734D4C /* ViewController.swift in Sources */,
+				1C13A9A12351512C00734D4C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C13A9AD2351512F00734D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C13A9B62351513000734D4C /* SocialPhotographyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C13A9B32351512F00734D4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C13A99C2351512C00734D4C /* SocialPhotography */;
+			targetProxy = 1C13A9B22351512F00734D4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C13A9A42351512C00734D4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C13A9A52351512C00734D4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C13A9A92351512F00734D4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C13A9AA2351512F00734D4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C13A9B82351513000734D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C13A9B92351513000734D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C13A9BB2351513000734D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54FDA13671C1169C69095B03 /* Pods-SocialPhotography.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SocialPhotography/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danish.SocialPhotography;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1C13A9BC2351513000734D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 287E239CCBF0B766F109E82E /* Pods-SocialPhotography.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SocialPhotography/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danish.SocialPhotography;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1C13A9BE2351513000734D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SocialPhotographyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danish.SocialPhotographyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialPhotography.app/SocialPhotography";
+			};
+			name = Debug;
+		};
+		1C13A9BF2351513000734D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SocialPhotographyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danish.SocialPhotographyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialPhotography.app/SocialPhotography";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C13A9982351512C00734D4C /* Build configuration list for PBXProject "SocialPhotography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C13A9B82351513000734D4C /* Debug */,
+				1C13A9B92351513000734D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C13A9BA2351513000734D4C /* Build configuration list for PBXNativeTarget "SocialPhotography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C13A9BB2351513000734D4C /* Debug */,
+				1C13A9BC2351513000734D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C13A9BD2351513000734D4C /* Build configuration list for PBXNativeTarget "SocialPhotographyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C13A9BE2351513000734D4C /* Debug */,
+				1C13A9BF2351513000734D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C13A9952351512C00734D4C /* Project object */;
+}
