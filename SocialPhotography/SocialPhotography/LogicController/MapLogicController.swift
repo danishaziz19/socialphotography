@@ -14,6 +14,7 @@ class MapLogicController: NSObject {
     
     var mapView: MKMapView!
     var navigation: UINavigationController?
+    var storyBoard: UIStoryboard?
     let regionRadius: CLLocationDistance = 1000
     let locationManager = CLLocationManager()
     var lastKnonwLocation = CLLocationCoordinate2D(latitude: 0, longitude: 0)
@@ -97,22 +98,9 @@ extension MapLogicController: MKMapViewDelegate {
     // same place it will sent to the Search screen and show all notes on that location
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView,
                  calloutAccessoryControlTapped control: UIControl) {
-//        let note = view.annotation as! Note
-//        let allNotes = notes.filter( { $0.coordinate.latitude == note.coordinate.latitude &&  $0.coordinate.longitude == note.coordinate.longitude })
-//
-//        if allNotes.count  > 1 {
-//            let alert = UIAlertController(title: nil, message: "There are more notes in this location. You want to see ?", preferredStyle: UIAlertController.Style.alert)
-//
-//            alert.addAction(UIAlertAction(title: "Cancel".uppercased(), style: .cancel, handler: nil))
-//
-//            alert.addAction(UIAlertAction(title: "Yes".uppercased(), style: .default, handler: { (action: UIAlertAction!) in
-//                if let navigation = self.navigation {
-//                //    let searchCoordinator: SearchCoordinator = SearchCoordinator(navigation: navigation, notes: allNotes)
-//                //    searchCoordinator.start()
-//                }
-//            }))
-//
-//            UIApplication.shared.keyWindow?.rootViewController?.present(alert, animated: true, completion: nil)
-//        }
+        let note = view.annotation as! Note
+        let locationDetailsViewController : LocationDetailsViewController = self.storyBoard?.instantiateViewController(withIdentifier: "LocationDetailsViewController") as! LocationDetailsViewController
+        locationDetailsViewController.locationDetailsLogicController.note = note
+        self.navigation?.pushViewController(locationDetailsViewController, animated: true)
     }
 }

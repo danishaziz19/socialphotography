@@ -34,6 +34,7 @@ class MapViewController: UIViewController {
     // setup mapview
     func setup() {
         self.mapLogicController.setupMap(mapView: self.mapView, navigation: self.navigationController)
+        self.mapLogicController.storyBoard = self.storyboard
     }
     
     @IBAction func currentLocaionPress(_ sender: UIButton) {
